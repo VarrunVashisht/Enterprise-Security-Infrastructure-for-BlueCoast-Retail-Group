@@ -246,4 +246,5 @@ All attack simulations were performed ethically and legally within isolated syst
 ## Author
 
 Varrun Vashisht
+
 Experienced in: Cybersecurity | Data Analytics 
