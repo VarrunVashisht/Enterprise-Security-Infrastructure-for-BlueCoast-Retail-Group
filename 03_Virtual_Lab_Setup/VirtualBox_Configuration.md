@@ -13,7 +13,7 @@ The following machines were deployed:
 * Windows Server 2025 (Domain Controller) - 192.168.56.10 (adaptor 2 - Static)
 * Ubuntu Server (Web Server) - 192.168.56.20
 * Windows 10 (Client Machine) - 192.168.56.11
-* Kali Linux (Attack Machine)
+* Kali Linux (Attack Machine) - 192.168.56.30
 * TrueNAS (Storage Server)
 * Wazuh (SIEM Monitoring Server)
 
