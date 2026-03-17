@@ -10,8 +10,8 @@ A virtual lab environment was created using Oracle VirtualBox to simulate an ent
 
 The following machines were deployed:
 
-* Windows Server 2025 (Domain Controller) - 192.168.56.10
-* Ubuntu Server (Web Server)
+* Windows Server 2025 (Domain Controller) - 192.168.56.10 (adaptor 2 - Static)
+* Ubuntu Server (Web Server) - 192.168.56.20
 * Windows 10 (Client Machine) - 192.168.56.11
 * Kali Linux (Attack Machine)
 * TrueNAS (Storage Server)
