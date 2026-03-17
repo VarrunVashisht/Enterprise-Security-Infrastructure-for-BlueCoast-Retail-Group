@@ -10,9 +10,9 @@ A virtual lab environment was created using Oracle VirtualBox to simulate an ent
 
 The following machines were deployed:
 
-* Windows Server 2025 (Domain Controller)
+* Windows Server 2025 (Domain Controller) - 192.168.56.10
 * Ubuntu Server (Web Server)
-* Windows 10 (Client Machine)
+* Windows 10 (Client Machine) - 192.168.56.11
 * Kali Linux (Attack Machine)
 * TrueNAS (Storage Server)
 * Wazuh (SIEM Monitoring Server)
