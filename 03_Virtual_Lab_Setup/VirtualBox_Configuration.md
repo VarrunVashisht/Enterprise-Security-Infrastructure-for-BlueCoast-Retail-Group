@@ -14,7 +14,7 @@ The following machines were deployed:
 * Ubuntu Server (Web Server) - 192.168.56.20
 * Windows 10 (Client Machine) - 192.168.56.11
 * Kali Linux (Attack Machine) - 192.168.56.30
-* TrueNAS (Storage Server) - 192.168.56.50
+* TrueNAS (Storage Server) - 192.168.56.121
 * Wazuh (SIEM Monitoring Server)
 
 ---
