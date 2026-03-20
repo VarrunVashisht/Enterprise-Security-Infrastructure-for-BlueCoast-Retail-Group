@@ -31,10 +31,10 @@ The environment is built using two network types:
 | ------------------- | ------------------------------------------------------ | ------------- |
 | Windows Server 2025 | Active Directory, DNS, Domain Controller               | 192.168.56.10 |
 | Ubuntu Server       | Web Server (Apache, MySQL, WordPress) + Security Tools | 192.168.56.20 |
-| Windows 10          | Domain Client Machine                                  | 192.168.56.30 |
-| Kali Linux          | Attack Simulation (Pen Testing)                        | 192.168.56.40 |
+| Windows 10          | Domain Client Machine                                  | 192.168.56.11 |
+| Kali Linux          | Attack Simulation (Pen Testing)                        | 192.168.56.30 |
 | TrueNAS             | Network Storage (SMB Shares)                           | 192.168.56.50 |
-| Wazuh SIEM          | Log Monitoring & Threat Detection                      | 192.168.56.60 |
+| Wazuh SIEM          | Log Monitoring & Threat Detection                      | 192.168.56.40 |
 
 ---
 
