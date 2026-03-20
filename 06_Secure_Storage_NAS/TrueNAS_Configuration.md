@@ -30,6 +30,11 @@ TrueNAS provides:
 * Secure access control
 * Data sharing across systems
 
+## Snapshot
+
+<img width="1908" height="896" alt="truenas-dashboard" src="https://github.com/user-attachments/assets/6df56b98-7da9-44ea-aef2-76a931d71b89" />
+
+
 ---
 
 ## ✅ Outcome
