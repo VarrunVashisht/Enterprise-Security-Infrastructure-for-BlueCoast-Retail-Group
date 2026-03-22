@@ -34,7 +34,7 @@ The environment is built using two network types:
 | Windows 10          | Domain Client Machine                                  | 192.168.56.11 |
 | Kali Linux          | Attack Simulation (Pen Testing)                        | 192.168.56.30 |
 | TrueNAS             | Network Storage (SMB Shares)                           | 192.168.56.121 |
-| Wazuh SIEM          | Log Monitoring & Threat Detection                      | 192.168.56.40 |
+| Wazuh SIEM          | Log Monitoring & Threat Detection                      | 192.168.56.122 |
 
 ---
 
