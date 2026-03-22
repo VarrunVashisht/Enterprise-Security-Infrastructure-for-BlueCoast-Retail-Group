@@ -20,7 +20,7 @@ This server collects logs, detects threats, and provides real-time monitoring ac
 Assign IP:
 
 ```bash
-192.168.56.60
+192.168.56.122
 ```
 
 ---
