@@ -88,11 +88,15 @@ Security hardening ensures:
 
 The web server is secured using multiple defensive layers including firewall, intrusion prevention, and malware detection.
 
+## Screenshot:
+<img width="810" height="572" alt="wordpress-disable-directory-listing-htaccess" src="https://github.com/user-attachments/assets/af997807-f3a0-42dd-9f73-3c18668b63ae" />
 
-### Snapshot:
-<img width="1363" height="908" alt="wordpress-live-website" src="https://github.com/user-attachments/assets/070558c3-2aeb-4ac5-80c4-7715674ad338" />
-<img width="845" height="731" alt="wordpress-website-configuration" src="https://github.com/user-attachments/assets/c2f3c5b4-aa32-4b1e-a03e-b562d862ae13" />
-<img width="830" height="541" alt="wordpress-database-installed-configured" src="https://github.com/user-attachments/assets/c174868b-6d73-46a8-be7a-fc998fc98ecd" />
+<img width="1189" height="429" alt="wordpress-fail2ban-status" src="https://github.com/user-attachments/assets/10983ae8-bd0d-45d9-8944-0cec0aada589" />
+
+<img width="823" height="295" alt="wordpress-ufw-status" src="https://github.com/user-attachments/assets/b7cac29f-8f32-448d-a125-aa9e22192b23" />
+
+<img width="403" height="220" alt="clamav-scan" src="https://github.com/user-attachments/assets/e5b7e7ab-2a17-4aab-89a7-5336f07844b9" />
+
 
 
 
