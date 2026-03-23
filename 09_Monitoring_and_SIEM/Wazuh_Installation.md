@@ -26,7 +26,10 @@ Assign IP:
 ---
 
 📸 Screenshot:
-`Screenshots/wazuh-vm.png`
+<img width="965" height="618" alt="image" src="https://github.com/user-attachments/assets/d24488ee-8a7a-440b-a62f-81eae036c7f4" />
+
+📸 Screenshot (Active Status):
+<img width="688" height="599" alt="image" src="https://github.com/user-attachments/assets/0c45dec9-3674-474c-8fd9-1353f7d5cf6b" />
 
 ---
 
@@ -56,9 +59,6 @@ sudo bash wazuh-install.sh -a
   * Dashboard (Kibana)
 
 ---
-
-📸 Screenshot:
-`Screenshots/wazuh-install.png`
 
 ---
 
@@ -117,7 +117,3 @@ Login with:
 * Ready to receive logs
 
 ---
-
-# 💼 Interview Explanation
-
-"I deployed Wazuh on a dedicated VM to act as a centralized SIEM, enabling real-time monitoring, log collection, and threat detection across multiple systems."
