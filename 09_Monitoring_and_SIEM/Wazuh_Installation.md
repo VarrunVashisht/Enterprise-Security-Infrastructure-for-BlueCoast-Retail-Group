@@ -1,29 +1,51 @@
-# 📊 Wazuh SIEM Installation (Separate VM)
+# 📊 Wazuh SIEM Deployment & Overview (Dedicated VM)
 
 ## 📌 Overview
 
-Wazuh was deployed on a dedicated Ubuntu VM to act as a Security Information and Event Management (SIEM) system.
+Wazuh was deployed on a dedicated Ubuntu virtual machine to function as a centralized **Security Information and Event Management (SIEM)** system within the BlueCoast Retail Group infrastructure.
 
-This server collects logs, detects threats, and provides real-time monitoring across the enterprise infrastructure.
+The SIEM plays a critical role in:
+
+* Collecting logs from all systems
+* Detecting security threats in real-time
+* Providing centralized visibility across the network
+* Supporting incident detection and response
+
+This setup simulates a real-world **Security Operations Center (SOC)** environment.
 
 ---
 
-# 🧩 Step 1 — Prepare New VM
+# 🧩 Step 1 — Prepare SIEM Virtual Machine
 
-## Configuration:
+## ⚙️ VM Configuration
 
-* Network:
+A dedicated VM was created specifically for Wazuh to ensure:
 
-  * Adapter 1 → NAT
-  * Adapter 2 → Host-Only
+* Isolation from other systems
+* Better performance and monitoring
+* Realistic enterprise architecture
 
-Assign IP:
+### Network Configuration
+
+* Adapter 1 → NAT (Internet access)
+* Adapter 2 → Host-Only (Internal communication)
+
+---
+
+## 🌐 Static IP Assignment
 
 ```bash
 192.168.56.122
 ```
 
+### 🎯 Why Static IP?
+
+* Required for agents to connect reliably
+* Ensures consistent communication across infrastructure
+* Critical for SIEM and monitoring tools
+
 ---
+
 
 📸 Screenshot:
 <img width="965" height="618" alt="image" src="https://github.com/user-attachments/assets/d24488ee-8a7a-440b-a62f-81eae036c7f4" />
@@ -31,89 +53,43 @@ Assign IP:
 📸 Screenshot (Active Status):
 <img width="688" height="599" alt="image" src="https://github.com/user-attachments/assets/0c45dec9-3674-474c-8fd9-1353f7d5cf6b" />
 
+
 ---
 
-# 🧩 Step 2 — Update System
+# 🧩 Step 2 — System Update
+
+## ⚙️ Command
 
 ```bash
 sudo apt update && sudo apt upgrade -y
 ```
 
+### 🎯 Purpose
+
+* Updates package lists
+* Installs latest security patches
+* Prevents compatibility issues during installation
+
 ---
 
-# 🧩 Step 3 — Install Wazuh (All-in-One)
+# 🧩 Step 3  — Access Wazuh Dashboard
 
+## 🌐 URL
+
+* From Windows 10 (Client Machine)
 ```bash
-curl -sO https://packages.wazuh.com/4.7/wazuh-install.sh
-sudo bash wazuh-install.sh -a
+https://192.168.56.122
 ```
 
----
-
-## 🎯 Purpose
-
-* Installs:
-
-  * Wazuh Manager
-  * Elasticsearch
-  * Dashboard (Kibana)
+📸 Screenshot (Wazuh Dashboard):
+<img width="1212" height="846" alt="image" src="https://github.com/user-attachments/assets/9820b586-fa21-4575-9e8e-e92112abd6f7" />
 
 ---
 
----
 
-# 🧩 Step 4 — Get Login Credentials
 
-After install:
 
-```bash
-sudo tar -xvf wazuh-install-files.tar
-```
 
----
 
-## Default:
 
-```bash
-Username: admin
-Password: (shown in output)
-```
 
----
-
-📸 Screenshot:
-`Screenshots/wazuh-credentials.png`
-
----
-
-# 🧩 Step 5 — Access Dashboard
-
-Open browser:
-
-```bash
-https://192.168.56.60
-```
-
----
-
-## Accept certificate warning
-
-Login with:
-
-* admin
-* password
-
----
-
-📸 Screenshot:
-`Screenshots/wazuh-dashboard.png`
-
----
-
-# ✅ Outcome
-
-* Wazuh SIEM installed
-* Dashboard accessible
-* Ready to receive logs
-
----
